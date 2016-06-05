@@ -4,7 +4,6 @@ var webpack = require('webpack');
 var PROD = (process.env.NODE_ENV === 'production')
 
 module.exports = {
-
   entry: './src/tapBPM.jsx',
   output: { 
     path: path.join(__dirname, 'dist'), 
